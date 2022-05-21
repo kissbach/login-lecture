@@ -1,8 +1,9 @@
 'use strict';
 
 const app = require ('../app');
+const logger = require ("../src/config/logger");
 const port = 3000;
 
 app.listen(port, () => {
-    console.log('서버 가동!')
+    logger.info(`${port}포트에서 서버가 가동!`);
 });
