@@ -5,14 +5,29 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="/css/home/login.css">
         <script src="/js/home/login.js" defer></script>
     </head>
     <body>
-       
-        <input id="id" type="text" placeholder='아이디'><br>
+       <!-- codepen -->
+       <div class="login-page">
+        <div class="form">
+          <form class="login-form">
+            <input id="id" type="text" placeholder="아이디"/>
+            <input id="psword" type="password" placeholder="비밀번호"/>
+            <button type="submit" >login</button>
+            <p class="message">회원이 아닌경우 <a href="/register">회원가입</a></p>
+          </form>
+        </div>
+      </div>
+
+        <!-- 초기 작성 -->
+        <!-- <input id="id" type="text" placeholder='아이디'><br>
         <input id="psword" type="text" placeholder='비밀번호'><br>
-        <button >로그인</button>
+        <button >로그인</button> -->
         <!-- form 기능 및 버튼 submit 기능 활성화 시 res.json() 에러 발생 -->
    
     </body>
     </html>
+
+    <!-- Copyright (c) 2022 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy) -->
