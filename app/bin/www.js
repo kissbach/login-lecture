@@ -7,3 +7,4 @@ app.listen(PORT,()=>{
 })
 
 
+// /app에서 npm start로 server start
